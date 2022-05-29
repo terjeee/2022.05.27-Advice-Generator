@@ -12,18 +12,21 @@
       sizes="32x32"
       href="./images/favicon-32x32.png"
     />
+    <link rel="stylesheet" href="./styles.css" />
+    <script defer src="./script.js"></script>
     <title>Frontend Mentor | Advice generator app</title>
-    <style>
-      .attribution {
-        font-size: 11px;
-        text-align: center;
-      }
-      .attribution a {
-        color: hsl(228, 45%, 44%);
-      }
-    </style>
   </head>
   <body>
+    <main class="advice">
+      <div class="advice__topic"></div>
+      <div class="advice__contenct"></div>
+      <div class="advice__divider--svg">
+        <img src="./images/pattern-divider-desktop.svg" alt="" />
+      </div>
+      <div class="advice__dice--svg">
+        <img src="./images/icon-dice.svg" alt="" />
+      </div>
+    </main>
     <div class="attribution">
       Challenge by
       <a
@@ -31,7 +34,9 @@
         target="_blank"
         >Frontend Mentor</a
       >. Coded by
-      <a href="https://github.com/terjeee">terjeee</a>.
+      <a href="https://github.com/terjeee" target="_blank"
+        >terjeee</a
+      >.
     </div>
   </body>
 </html>
