@@ -58,7 +58,7 @@ a {
 }
 
 .advice__title {
-  padding: 1rem 0 1.5rem 0;
+  padding: 1rem 0;
 
   font-size: 0.8rem;
   letter-spacing: 0.3rem;
@@ -87,14 +87,28 @@ a {
   background-color: var(--clr-neon-green);
   border-radius: 50%;
   border: none;
+
+  cursor: pointer;
+}
+
+.advice__dice:hover {
+  box-shadow: 0 0 15px var(--clr-neon-green);
 }
 
 /* footer */
 
 footer .attribution {
-  width: 100%;
   text-align: center;
-
   font-family: 'Courier New', Courier, monospace;
   font-size: 11px;
 }
+
+@media (max-width: 501px) {
+  .advice {
+    padding: 2.5rem 1.5rem;
+  }
+
+  .advice__content {
+    font-size: 1.8rem;
+  }
+} ;
