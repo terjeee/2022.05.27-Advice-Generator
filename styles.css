@@ -92,7 +92,7 @@ a {
 }
 
 .advice__dice:hover {
-  box-shadow: 0 0 15px var(--clr-neon-green);
+  box-shadow: 0 0 10px var(--clr-neon-green);
 }
 
 /* footer */
@@ -110,5 +110,9 @@ footer .attribution {
 
   .advice__content {
     font-size: 1.8rem;
+  }
+
+  .advice__dice:hover {
+    box-shadow: none;
   }
 } ;
